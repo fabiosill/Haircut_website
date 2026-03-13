@@ -1,0 +1,81 @@
+/*Zerar margem*/
+body{
+    margin:0; 
+    font-family: Arial, Helvetica, sans-serif  
+}
+/*Cor do cabeçalho*/
+header{
+    background-color: rgb(0, 0, 0)
+}
+/*Tamanho do logo, posicionamento*/
+.logo{
+    width: 12%;
+    padding: 10px 0 20px 5%;
+}
+/*Cor do menu, posição, tamanho da fonte, tipo de fonte*/
+nav{
+    color: rgb(209, 192, 37);
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    font-size: 30px;
+    font-family: cursive;
+}
+/*escrita em fileira, longe de 30px da margem*/
+nav li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.divHeader{
+    position: relative;
+}
+/*Altura, largura, reparo do objeto*/
+.ban{
+    width: 100%;
+    height: auto;
+  
+}
+/*Estilização de títulos*/
+.titulos {
+    text-align: center;
+    color: rgb(26, 27, 4);
+}
+.titulos2 {
+     text-align: center;
+    color: rgb(252, 252, 252);
+}
+.titulos3 {      
+    float: right;
+    margin-right: 20%;
+    color: rgb(26, 27, 4); 
+    font-size:large;
+}    
+.sobrenos{
+    width: 60%;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 20%;
+}
+.imgsobrenos{
+    
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+    border-radius: 5%;
+}
+.titulosobrenos{
+    
+    clear: left;
+}
+/*Estilização da sessão NOSSO ESTABELECIMENTO*/
+.mapa{
+    text-align: center;
+    background: linear-gradient( rgb(26, 26, 26), rgb(209, 190, 21));
+}
+.img2{
+    width: 15%;
+    float: right;
+    margin-right: 25%;
+    border-radius: 5%;
+}
