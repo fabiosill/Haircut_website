@@ -1,7 +1,8 @@
 /*Zerar margem*/
 body{
     margin:0; 
-    font-family: Arial, Helvetica, sans-serif  
+    font-family: Arial, Helvetica, sans-serif;  
+    background: linear-gradient( rgb(255, 250, 181), rgb(243, 230, 115), rgb(136, 128, 52));
 }
 /*Cor do cabeçalho*/
 header{
@@ -41,13 +42,11 @@ nav li{
     text-align: center;
     color: rgb(26, 27, 4);
 }
-.titulos2 {
-     text-align: center;
-    color: rgb(252, 252, 252);
-}
+
+
 .titulos3 {      
-    float: right;
-    margin-right: 20%;
+    float: center;
+    margin-right: 10%;
     color: rgb(26, 27, 4); 
     font-size:large;
 }    
@@ -71,11 +70,39 @@ nav li{
 /*Estilização da sessão NOSSO ESTABELECIMENTO*/
 .mapa{
     text-align: center;
-    background: linear-gradient( rgb(26, 26, 26), rgb(209, 190, 21));
+    
 }
+.titulosmap {
+    text-align: center;
+    color: rgb(52, 53, 2);  
+}
+/*imagem do div*/
 .img2{
-    width: 15%;
+    width: 10%;
     float: right;
-    margin-right: 25%;
+    margin-right: 35%;
     border-radius: 5%;
+}
+.titulosprod {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 18;
+    color: rgb(26, 27, 4);
+}
+
+/*Sessao vídeo*/
+.video{
+    text-align: center;
+    background-color: linear;
+}
+footer{
+    padding: 30px 10px 10px 0px;
+    background: url("../img/kleberbanner.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgb(31, 29, 29);
+}
+.logo_footer{
+    width:15%;
 }
